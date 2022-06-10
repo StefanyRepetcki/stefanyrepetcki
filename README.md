@@ -1,4 +1,7 @@
 ## Olá, eu sou a Stefany Repetcki, desenvolvedora de software!
+
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=stefanyrepetcki&label=Profile%20views&color=0e75b6&style=flat" alt="stefanyrepetcki" /> </p>
+
 <div align="center">
   <a href="https://github.com/StefanyRepetcki">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=StefanyRepetcki&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>

@@ -1,28 +1,104 @@
-## Olá, eu sou a Stefany Repetcki, desenvolvedora de software!
+<div align="center">
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=stefanyrepetcki&label=Profile%20views&color=0e75b6&style=flat" alt="stefanyrepetcki" /> </p>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=26&duration=3500&pause=900&color=A855F7&center=true&vCenter=true&width=680&lines=Oi%2C+sou+a+Stefany+Repetcki;Senior+Frontend+Engineer+%40+iFood;Curitiba%2C+PR%2C+React%2C+TypeScript+e+Vue" alt="Intro animada" />
+
+<a href="https://github.com/StefanyRepetcki"><img src="https://komarev.com/ghpvc/?username=StefanyRepetcki&label=visitas&color=ec4899&style=flat&labelColor=1a1a2e" alt="Contador de visitas no perfil" /></a>
+<img src="https://img.shields.io/badge/Open%20source-extens%C3%B5es%20VS%20Code-7c3aed?style=flat-square&labelColor=1a1a2e" alt="Open source" />
+<img src="https://img.shields.io/badge/Code%20like%20a%20girl-Brasil-f472b6?style=flat-square&labelColor=1a1a2e" alt="Code like a girl Brasil" />
+
+</div>
+
+<br/>
+
+<table>
+<tr>
+<td width="52%" valign="top">
+
+## Sobre mim
+
+Sou desenvolvedora de software, apaixonada por tecnologia, jogos e cubo mágico. Em 2019 saí da sala de aula e mergulhei de vez em front end, e desde então foi uma sequência de desafios bons: Storybook, micro frontends, monorepo com Nx, React, TypeScript, Vue, e muito papo com produto e design para entregar coisa que funciona de verdade.
+
+Hoje sou **Senior Frontend Engineer** no **iFood**. No mês passado troquei de time: agora estou criando um **portal do zero**, com mentalidade **AI first**. Criei **rules**, **commands** e **agents** pra automatizar o que repetia (padrão de código, checklist, partes chatas do setup) e ganhar velocidade com qualidade. Paralelo a isso, valido **segurança**, **observabilidade** e vou empurrando o desenho pra ficar o mais **escalável** possível, porque essa base vai virar o **remote** onde os **MFEs** vão plugar e seguir **independentes** uns dos outros.
+
+Antes estava no **Dine-in** (comer fora), em fluxo de campanhas, cupom, cashback, CRM pro parceiro, Jest, Testing Library, Sentry e monorepo no dia a dia.
+
+Fora do trabalho, tive a honra de palestrar no **TDC** sobre Storybook, sou fundadora da comunidade [**Code like a girl Brasil**](https://instagram.com/codelikeagirlbrasil) no Instagram e YouTube, escrevo no [**Dev.to**](https://dev.to/stefanyrepetcki) e mantenho [**extensões públicas**](https://marketplace.visualstudio.com/search?term=Stefany&target=VSCode) no VS Code pra facilitar a vida de quem desenvolve.
+
+<details>
+<summary><strong>Eventos onde já passei</strong></summary>
+
+| Ano | Onde |
+| :--- | :--- |
+| 2022 | TDC (palestra) |
+| 2023 | Codecon, Front in Floripa |
+| 2024 | BrazilJS, Codecon |
+| 2025 | Codecon |
+
+Links e conteúdos: [**Linktree**](https://linktr.ee/stefanyrepetcki).
+
+</details>
+
+</td>
+<td width="48%" valign="top" align="center">
+
+<img src="https://github.com/StefanyRepetcki.png" width="220" alt="Stefany Repetcki" />
+
+<br/>
+
+**Curitiba, Paraná.** Pós na UNINTER (TI, eng. de software pra mobile, gestão de TI e correlatas).
+
+<sub>Professora virou dev, e eu levo essa didática pro código e pro time.</sub>
+
+</td>
+</tr>
+</table>
+
+---
+
+## Stack que mais uso no dia a dia
 
 <div align="center">
-  <a href="https://github.com/StefanyRepetcki">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=StefanyRepetcki&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=StefanyRepetcki&layout=compact&langs_count=7&theme=dracula"/>
-</div>
-<div style="display: inline_block"><br>
-  <img align="center" alt="Stefany-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img align="center" alt="Stefany-Ts" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg">
-  <img align="center" alt="Stefany-Vue" height="30" width="40" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/888px-Vue.js_Logo_2.svg.png">
-  <img align="center" alt="Stefany-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img align="center" alt="Stefany-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img align="right" alt="Stefany-pic" height="150" style="border-radius:50px;" src="https://cdn.discordapp.com/attachments/620407758033911819/933080191679463444/0f4b094a-361f-4977-85dc-7e6e87f3989b.png">
+<img height="36" alt="JavaScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
+<img height="36" alt="TypeScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" />
+<img height="36" alt="React" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+<img height="36" alt="Vue" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" />
+<img height="36" alt="HTML5" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+<img height="36" alt="CSS3" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+<img height="36" alt="Docker" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg" />
+<img height="36" alt="Jest" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg" />
 </div>
 
-  ##
+<p align="center"><sub>Storybook, snapshot de UI, Core Web Vitals, MFEs, Git, CI quando o time precisa, e cada vez mais automação com IA no fluxo de entrega.</sub></p>
 
-<div>
-  <a href="https://instagram.com/codelikeagirlbrasil" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
-  <a href = "mailto:stefanyluna2013@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-  <a href="https://www.linkedin.com/in/stefany-repetcki/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+---
 
-![Snake animation](https://github.com/StefanyRepetcki/StefanyRepetcki/blob/output/github-contribution-grid-snake.svg)
+## GitHub em números
 
+<div align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=StefanyRepetcki&show_icons=true&theme=transparent&hide_border=true&title_color=a855f7&icon_color=ec4899&text_color=e4e4e7&ring_color=c084fc&include_all_commits=true" alt="Estatísticas do GitHub" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=StefanyRepetcki&layout=compact&theme=transparent&hide_border=true&title_color=a855f7&text_color=e4e4e7&langs_count=8" alt="Linguagens mais usadas" />
 </div>
+
+<div align="center">
+  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=StefanyRepetcki&theme=transparent&hide_border=true&ring=c084fc&currStreakLabel=a855f7&fire=ec4899" alt="Sequência de contribuições" />
+</div>
+
+---
+
+## Onde me achar
+
+<div align="center">
+  <a href="https://www.linkedin.com/in/stefany-repetcki/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://dev.to/stefanyrepetcki" target="_blank"><img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white" alt="Dev.to" /></a>
+  <a href="https://instagram.com/codelikeagirlbrasil" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" /></a>
+  <a href="https://linktr.ee/stefanyrepetcki" target="_blank"><img src="https://img.shields.io/badge/Linktree-39E09B?style=for-the-badge&logo=linktree&logoColor=white" alt="Linktree" /></a>
+  <a href="mailto:stefany.c.r@hotmail.com"><img src="https://img.shields.io/badge/E--mail-8B5CF6?style=for-the-badge&logo=microsoftoutlook&logoColor=white" alt="E-mail" /></a>
+</div>
+
+<br/>
+
+<div align="center">
+  <img alt="Contribuições em formato de cobrinha" src="https://raw.githubusercontent.com/StefanyRepetcki/StefanyRepetcki/output/github-contribution-grid-snake.svg" />
+</div>
+
+<p align="center"><sub>Se quiser trocar uma ideia, sugestão ou PR, pode chegar.</sub></p>

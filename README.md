@@ -47,7 +47,7 @@ Links e conteúdos: [**Linktree**](https://linktr.ee/stefanyrepetcki).
 
 **Curitiba, Paraná.** Pós na UNINTER (TI, eng. de software pra mobile, gestão de TI e correlatas).
 
-<sub>Professora virou dev, e eu levo essa didática pro código e pro time.</sub>
+<sub><code>while (working) { experience++ }</code></sub>
 
 </td>
 </tr>
@@ -74,13 +74,14 @@ Links e conteúdos: [**Linktree**](https://linktr.ee/stefanyrepetcki).
 
 ## GitHub em números
 
+<!-- SVGs gerados no Actions e servidos da branch output (evita rate limit do Vercel e Heroku dormindo) -->
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=StefanyRepetcki&show_icons=true&theme=transparent&hide_border=true&title_color=a855f7&icon_color=ec4899&text_color=e4e4e7&ring_color=c084fc&include_all_commits=true" alt="Estatísticas do GitHub" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=StefanyRepetcki&layout=compact&theme=transparent&hide_border=true&title_color=a855f7&text_color=e4e4e7&langs_count=8" alt="Linguagens mais usadas" />
+  <img height="165" src="https://raw.githubusercontent.com/StefanyRepetcki/stefanyrepetcki/output/github-stats.svg" alt="Estatísticas do GitHub" />
+  <img height="165" src="https://raw.githubusercontent.com/StefanyRepetcki/stefanyrepetcki/output/github-top-langs.svg" alt="Linguagens mais usadas" />
 </div>
 
 <div align="center">
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=StefanyRepetcki&theme=transparent&hide_border=true&ring=c084fc&currStreakLabel=a855f7&fire=ec4899" alt="Sequência de contribuições" />
+  <img height="165" src="https://raw.githubusercontent.com/StefanyRepetcki/stefanyrepetcki/output/github-streak.svg" alt="Sequência de contribuições" />
 </div>
 
 ---
@@ -98,7 +99,7 @@ Links e conteúdos: [**Linktree**](https://linktr.ee/stefanyrepetcki).
 <br/>
 
 <div align="center">
-  <img alt="Contribuições em formato de cobrinha" src="https://raw.githubusercontent.com/StefanyRepetcki/StefanyRepetcki/output/github-contribution-grid-snake.svg" />
+  <img alt="Contribuições em formato de cobrinha" src="https://raw.githubusercontent.com/StefanyRepetcki/stefanyrepetcki/output/github-contribution-grid-snake.svg" />
 </div>
 
 <p align="center"><sub>Se quiser trocar uma ideia, sugestão ou PR, pode chegar.</sub></p>

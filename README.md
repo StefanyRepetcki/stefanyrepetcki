@@ -74,14 +74,14 @@ Links e conteúdos: [**Linktree**](https://linktr.ee/stefanyrepetcki).
 
 ## GitHub em números
 
-<!-- SVGs gerados no Actions e servidos da branch output (evita rate limit do Vercel e Heroku dormindo) -->
+<!-- SVGs versionados em assets/profile (gerados de novo pelo Actions; stats via mirror github-stats-extended porque o Vercel oficial costuma ficar pausado) -->
 <div align="center">
-  <img height="165" src="https://raw.githubusercontent.com/StefanyRepetcki/stefanyrepetcki/output/github-stats.svg" alt="Estatísticas do GitHub" />
-  <img height="165" src="https://raw.githubusercontent.com/StefanyRepetcki/stefanyrepetcki/output/github-top-langs.svg" alt="Linguagens mais usadas" />
+  <img height="165" src="https://raw.githubusercontent.com/StefanyRepetcki/stefanyrepetcki/master/assets/profile/github-stats.svg" alt="Estatísticas do GitHub" />
+  <img height="165" src="https://raw.githubusercontent.com/StefanyRepetcki/stefanyrepetcki/master/assets/profile/github-top-langs.svg" alt="Linguagens mais usadas" />
 </div>
 
 <div align="center">
-  <img height="165" src="https://raw.githubusercontent.com/StefanyRepetcki/stefanyrepetcki/output/github-streak.svg" alt="Sequência de contribuições" />
+  <img height="165" src="https://raw.githubusercontent.com/StefanyRepetcki/stefanyrepetcki/master/assets/profile/github-streak.svg" alt="Sequência de contribuições" />
 </div>
 
 ---
@@ -99,7 +99,7 @@ Links e conteúdos: [**Linktree**](https://linktr.ee/stefanyrepetcki).
 <br/>
 
 <div align="center">
-  <img alt="Contribuições em formato de cobrinha" src="https://raw.githubusercontent.com/StefanyRepetcki/stefanyrepetcki/output/github-contribution-grid-snake.svg" />
+  <img alt="Contribuições em formato de cobrinha" src="https://raw.githubusercontent.com/StefanyRepetcki/stefanyrepetcki/master/assets/profile/github-contribution-grid-snake.svg" />
 </div>
 
 <p align="center"><sub>Se quiser trocar uma ideia, sugestão ou PR, pode chegar.</sub></p>

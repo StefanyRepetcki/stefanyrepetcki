@@ -13,31 +13,38 @@ jobs:
     name: Jobs to update datas
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: Contribution snake
         uses: Platane/snk@v3.5.0
         with:
           github_user_name: StefanyRepetcki
-          svg_out_path: dist/github-contribution-grid-snake.svg
+          svg_out_path: assets/profile/github-contribution-grid-snake.svg
 
-      - name: README stats cards (SVG, hosted on branch output)
+      - name: README stats cards (SVG into repo)
         run: |
           set -e
-          mkdir -p dist
+          mkdir -p assets/profile
+          # github-readme-stats public Vercel is often paused; extended fork is API-compatible
           curl -fsSL --retry 3 --retry-delay 8 --connect-timeout 25 \
-            "https://github-readme-stats.vercel.app/api?username=StefanyRepetcki&show_icons=true&theme=transparent&hide_border=true&title_color=a855f7&icon_color=ec4899&text_color=e4e4e7&ring_color=c084fc&include_all_commits=true&cache_seconds=14400" \
-            -o dist/github-stats.svg
+            "https://github-stats-extended.vercel.app/api?username=StefanyRepetcki&show_icons=true&theme=transparent&hide_border=true&title_color=a855f7&icon_color=ec4899&text_color=e4e4e7&ring_color=c084fc&include_all_commits=true" \
+            -o assets/profile/github-stats.svg
           curl -fsSL --retry 3 --retry-delay 8 --connect-timeout 25 \
-            "https://github-readme-stats.vercel.app/api/top-langs/?username=StefanyRepetcki&layout=compact&theme=transparent&hide_border=true&title_color=a855f7&text_color=e4e4e7&langs_count=8&cache_seconds=14400" \
-            -o dist/github-top-langs.svg
+            "https://github-stats-extended.vercel.app/api/top-langs/?username=StefanyRepetcki&layout=compact&theme=transparent&hide_border=true&title_color=a855f7&text_color=e4e4e7&langs_count=8" \
+            -o assets/profile/github-top-langs.svg
           curl -fsSL --retry 3 --retry-delay 8 --connect-timeout 25 \
             "https://streak-stats.demolab.com/?user=StefanyRepetcki&theme=transparent&hide_border=true&ring=c084fc&currStreakLabel=a855f7&fire=ec4899" \
-            -o dist/github-streak.svg
+            -o assets/profile/github-streak.svg
 
-      - name: Publish to branch output
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-          keep_history: false
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit and push SVGs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/profile/
+          if git diff --staged --quiet; then
+            echo "No changes to profile SVGs"
+          else
+            git commit -m "chore(profile): update readme SVG assets [skip ci]"
+            git push
+          fi

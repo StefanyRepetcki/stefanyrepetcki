@@ -16,17 +16,20 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Ensure profile assets directory
+        run: mkdir -p assets/profile
+
       - name: Contribution snake
-        uses: Platane/snk@v3.5.0
+        uses: Platane/snk/svg-only@v3.5.0
         with:
           github_user_name: StefanyRepetcki
-          svg_out_path: assets/profile/github-contribution-grid-snake.svg
+          outputs: |
+            assets/profile/github-contribution-grid-snake.svg
 
       - name: README stats cards (SVG into repo)
         run: |
           set -e
           mkdir -p assets/profile
-          # github-readme-stats public Vercel is often paused; extended fork is API-compatible
           curl -fsSL --retry 3 --retry-delay 8 --connect-timeout 25 \
             "https://github-stats-extended.vercel.app/api?username=StefanyRepetcki&show_icons=true&theme=transparent&hide_border=true&title_color=a855f7&icon_color=ec4899&text_color=e4e4e7&ring_color=c084fc&include_all_commits=true" \
             -o assets/profile/github-stats.svg

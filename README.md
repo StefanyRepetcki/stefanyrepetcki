@@ -102,4 +102,4 @@ Links e conteúdos: [**Linktree**](https://linktr.ee/stefanyrepetcki).
   <img alt="Contribuições em formato de cobrinha" src="https://raw.githubusercontent.com/StefanyRepetcki/stefanyrepetcki/master/assets/profile/github-contribution-grid-snake.svg" />
 </div>
 
-<p align="center"><sub>Se quiser trocar uma ideia, sugestão ou PR, pode chegar.</sub></p>
+<p align="center"><sub>Bora construir isso juntos!</sub></p>

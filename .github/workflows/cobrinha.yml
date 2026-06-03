@@ -1,6 +1,10 @@
 name: Generate Datas
 
 on:
+  push:
+    branches: [master]
+    paths:
+      - ".github/workflows/cobrinha.yml"
   schedule: # a cada 12 horas (minuto 0)
     - cron: "0 */12 * * *"
   workflow_dispatch:
